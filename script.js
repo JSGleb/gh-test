@@ -5,6 +5,7 @@ let input = document.getElementById("input");
 
 let name;
 
+
 input.onkeypress = function(event) {
 
     if (event.key == "Enter" || event.keyCode == 13) {
